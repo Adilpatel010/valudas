@@ -1,0 +1,295 @@
+/* navbar */
+#top_nav {
+    background-color: white;
+    border: 1px solid rgb(221, 218, 218);
+    padding: 15px 9%;
+    border-left: none;
+    border-right: none;
+}
+
+#logo {
+    width: 100%;
+    height: 45px;
+}
+
+#navbarmenu {
+    margin-left: 316px;
+    padding-left: 30px;
+}
+
+#menu a {
+    color: rgb(91, 89, 89);
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+#menu a:hover {
+    color: rgb(133, 129, 129);
+}
+
+#search-btn {
+    border: 0;
+    background-color: white;
+    color: rgb(91, 89, 89);
+    font-size: 20px;
+}
+
+#search-btn:hover {
+    color: green;
+}
+
+#navbarSupportedContent {
+    padding: 13px 0;
+}
+
+@media only screen and (max-width:995px) {
+    #search-btn {
+        position: absolute;
+        top: 8.5%;
+        left: 78%;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    #search-btn {
+        position: absolute;
+        top: 8.5%;
+        left: 68%;
+    }
+}
+
+@media only screen and (max-width:985px) {
+    #navbarSupportedContent a {
+        padding: 9px 5px;
+        border-bottom: 1px solid rgb(235, 231, 231);
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #navbarmenu {
+        margin-left: 280px;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width:1180px) {
+    #navbarmenu {
+        margin-left: 180px;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width:1070px) {
+    #navbarmenu {
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:438px) {
+    #top_nav {
+        padding: 15px 5%;
+    }
+}
+
+/* home */
+#bannertext h6 {
+    background-color: rgb(233, 244, 241);
+    padding: 12px 10px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+    width: 90%;
+    font-weight: bold;
+}
+
+#bannertext h1 {
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+#bannertext p {
+    margin-top: 24px;
+}
+
+#bannerimg {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:768px) {
+    #bannertext h6 {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    #bannerimg {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:995px) {
+    #bannertext h6 {
+        margin-top: 30px;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #bannertext h6 {
+
+        width: 100%;
+    }
+}
+
+#bannerbtn {
+    background-color: #52a01f;
+    margin-top: 10px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* rating part */
+#rating {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+#img1 {
+    border-right: 1px solid #52a01f;
+    padding-right: 50px;
+}
+
+#img2 {
+    border-right: 1px solid #52a01f;
+    padding-right: 50px;
+}
+
+#img3 {
+    border-right: 1px solid #52a01f;
+    padding-right: 50px;
+}
+
+#img4 {
+    border-right: 1px solid #52a01f;
+    padding-right: 50px;
+}
+
+@media only screen and (max-width:1000px) {
+
+    #img1,
+    #img2,
+    #img3,
+    #img4 {
+        border: 0;
+        padding: 30px 30px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    #img1,
+    #img2,
+    #img3,
+    #img4 {
+        border: 0;
+        padding: 30px 30px;
+        border-bottom: 1px solid #52a01f;
+    }
+}
+
+/* service */
+#service {
+    margin-bottom: 40px;
+}
+
+#servicetext h6 {
+    background-color: rgb(233, 244, 241);
+    padding: 12px 3px 12px 3px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#servicedata {
+    font-weight: 700;
+    margin-top: 13px;
+}
+
+#servicepart {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#servicepart h4 {
+    padding-top: 25px;
+    font-weight: bolder;
+}
+
+#servicepart p {
+    padding-top: 9px;
+}
+
+#partimg {
+    margin-top: 10px;
+}
+
+#part1 {
+    box-shadow: 2px 4px 19px -1px gray;
+    border-radius: 20px;
+    margin-left: 25px;
+    padding: 15px;
+}
+
+#part2 {
+    box-shadow: 2px 4px 19px -1px gray;
+    border-radius: 20px;
+    margin-left: 25px;
+    padding: 15px;
+}
+
+#part3 {
+    box-shadow: 2px 4px 19px -1px gray;
+    border-radius: 20px;
+    margin-left: 25px;
+    padding: 15px;
+}
+
+@media only screen and (max-width:993px) {
+
+    #part1,
+    #part2,
+    #part3 {
+        margin: 0;
+        margin-top: 30px;
+    }
+}
+
+/* experience */
+#experience {
+    background-color: #1a2d32;
+
+}
+
+#exptext h6 {
+    background-color:rgb(37, 70, 75);
+    padding: 10px 5px 10px 5px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+}
+#expdata 
+{
+    color: white;
+    font-weight: bold;
+}
